@@ -49,7 +49,7 @@
                   /*START OF SW LOGOCONT*/
                   .header_logoCont_SW {
         
-        
+                   
                       /* border-bottom: 1px solid grey; */
                       overflow: hidden;
                       /*flex-grow: 1;*/
@@ -143,15 +143,17 @@
 
     .header{
         background:linear-gradient(180deg, rgba(0, 18, 69, 0.981) 0%, rgb(0, 43, 123) 50%, rgba(124, 0, 152, 0.989) 100%);
-        
-        height: 48vw;
+        border: 1px solid black;
+        height: 58vw;
         display: flex;
         flex-direction: column;
+      
+        overflow: hidden;
     }
 
     .header_landscapeCont{
     
-        border: 1px solid black;
+        
         background-image: url("images/bgpic.jpg");
         height: 80vw;
       /*  background-size: cover; */
@@ -161,7 +163,7 @@
 
         display:flex;
         flex-direction: column;
-        justify-content: space-between;
+        /*justify-content: space-between; */
        
       
        
@@ -172,10 +174,11 @@
 
          /*START OF SW LOGOCONT*/
          .header_logoCont_SW {
-    
+            border: 2px dashed transparent;
            
              /* border-bottom: 1px solid grey; */
              overflow: hidden;
+
              /*flex-grow: 1;*/
          }
     
@@ -191,12 +194,41 @@
     
          /*END OF SW LOGOCONT*/
 
+    .header_profilePicCont{
+        border: 2px dashed transparent;
+        width: 100%;
+        height: 55%;
+        overflow: hidden;
+        margin-bottom: 0%;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        
+    }
+
+         .header_profilePicCont img{
+           
+             width: 25%;
+             height: 90%;
+            margin-left: 8%;
+             
+            position: absolute;
+            bottom: 0;
+            }
+
     .header_logoCont{
 
-       
+        border: 2px dashed transparent;
        /* border-bottom: 1px solid grey; */
         overflow: hidden;
         /*flex-grow: 1;*/
+        width: 60%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        margin-left: 33%;
+
+       
        
     }
 
@@ -270,11 +302,9 @@
     .PicAndTextArticle{
        
         border: 1px solid transparent;
-
+     
         display: flex;
-        flex-direction: row;
-
-        
+        flex-direction: row;        
     }
 
     .PATA_PicCont{
