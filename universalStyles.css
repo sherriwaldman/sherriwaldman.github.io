@@ -47,15 +47,15 @@
         
         
                   /*START OF SW LOGOCONT*/
-                  .header_logoCont_SW {
+                  .header_topHalfCont {
         
-                   
+                    
                       /* border-bottom: 1px solid grey; */
                       overflow: hidden;
                       /*flex-grow: 1;*/
                   }
         
-                  .header_logoCont_SW svg {
+                  .header_topHalfCont svg {
         
                       width: 50%;
                       height: 100%;
@@ -67,7 +67,7 @@
         
                   /*END OF SW LOGOCONT*/
     
-           .header_logoCont {
+           .header_quoteCont {
     
     
                /* border-bottom: 1px solid grey; */
@@ -76,7 +76,7 @@
     
            }
     
-           .header_logoCont svg {
+           .header_quoteCont svg {
     
                width: 40%;
                height: 100%;
@@ -173,28 +173,44 @@
 
 
          /*START OF SW LOGOCONT*/
-         .header_logoCont_SW {
+         .header_topHalfCont {
             border: 2px dashed transparent;
            
              /* border-bottom: 1px solid grey; */
              overflow: hidden;
-
+            display: flex;
+            flex-direction: row;
              /*flex-grow: 1;*/
          }
     
-         .header_logoCont_SW svg {
-          
+         .header_topHalfCont svg {
+            border: 2px dotted transparent;
              width: 50%;
              height: 100%;
              display: block;
     
          }
+
+         .header_topHalfCont_areasOfServiceCont{
+            border: 2px solid transparent;
+            
+         }
+
+         .header_topHalfCont_areasOfServiceCont h2{
+            color: rgb(216, 0, 0);
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 5%;
+        }
     
     
     
          /*END OF SW LOGOCONT*/
 
-    .header_profilePicCont{
+    .header_bottomHalfCont{
         border: 2px dashed transparent;
         width: 100%;
         height: 55%;
@@ -206,7 +222,7 @@
         
     }
 
-         .header_profilePicCont img{
+         .header_bottomHalfCont img{
            
              width: 25%;
              height: 90%;
@@ -216,7 +232,7 @@
             bottom: 0;
             }
 
-    .header_logoCont{
+    .header_quoteCont{
 
         border: 2px dashed transparent;
        /* border-bottom: 1px solid grey; */
@@ -232,9 +248,20 @@
        
     }
 
-    .header_logoCont svg{
+    .header_quoteCont h2{
+        color: whitesmoke;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-style: italic;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .header_quoteCont svg{
        
-        width: 40%;
+        border: 2px dashed transparent;
+        width: 80%;
         height: 100%;
         display: block;
         margin-left: 9%;
@@ -344,6 +371,28 @@
       
     }
 
+
+    .availabilityStatusCont{
+        border: 1px solid black;
+        width: 20%;
+        margin-left: 80%;
+        margin-top: -10%;
+       height: 10vw;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       border-radius: 10% 10% 10% 10%;
+     
+    }
+
+    .availabilityStatusCont button{
+        width: 40%;
+        height: 20%;
+        margin: auto;
+background: radial-gradient(circle, rgba(37, 129, 193, 1) 0%, rgba(0, 127, 221, 1) 44%, rgba(9, 122, 145, 1) 100%);
+color: white;
+
+    }
 
     /*END OF MAIN CONTENT STYLES*/
 
