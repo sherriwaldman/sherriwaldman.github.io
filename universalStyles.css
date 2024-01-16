@@ -197,12 +197,12 @@
          }
 
          .header_topHalfCont_areasOfServiceCont h2{
-            color: rgb(216, 0, 0);
+            color: rgb(255, 255, 255);
             text-align: center;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-style: italic;
-            margin-left: 20%;
-            margin-right: 20%;
+            margin-left: 15%;
+            margin-right: 15%;
             margin-top: 5%;
         }
     
@@ -293,7 +293,7 @@
         padding-left: 0.8vw;
         padding-right: 0.8vw;
         font-size: 1em;
-        color: bisque;
+        color: rgb(255, 0, 0);
        background: linear-gradient(40deg, rgb(5, 0, 78) 3%, rgba(0, 18, 88, 0.998) 52%, rgb(41, 0, 95) 88%); 
        
        background: transparent;
@@ -373,10 +373,10 @@
 
 
     .availabilityStatusCont{
-        border: 1px solid black;
+        border: 1px solid transparent;
         width: 20%;
-        margin-left: 80%;
-        margin-top: -10%;
+        margin-left: 0%;
+        margin-top: 0%;
        height: 10vw;
        display: flex;
        flex-direction: row;
@@ -387,7 +387,8 @@
 
     .availabilityStatusCont button{
         width: 40%;
-        height: 20%;
+        height: 30%;
+        border: 3px outset black;
         margin: auto;
 background: radial-gradient(circle, rgba(37, 129, 193, 1) 0%, rgba(0, 127, 221, 1) 44%, rgba(9, 122, 145, 1) 100%);
 color: white;
