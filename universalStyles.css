@@ -47,15 +47,15 @@
         
         
                   /*START OF SW LOGOCONT*/
-                  .header_logoCont_SW {
+                  .header_topHalfCont {
         
-                   
+                    
                       /* border-bottom: 1px solid grey; */
                       overflow: hidden;
                       /*flex-grow: 1;*/
                   }
         
-                  .header_logoCont_SW svg {
+                  .header_topHalfCont svg {
         
                       width: 50%;
                       height: 100%;
@@ -67,7 +67,7 @@
         
                   /*END OF SW LOGOCONT*/
     
-           .header_logoCont {
+           .header_quoteCont {
     
     
                /* border-bottom: 1px solid grey; */
@@ -76,7 +76,7 @@
     
            }
     
-           .header_logoCont svg {
+           .header_quoteCont svg {
     
                width: 40%;
                height: 100%;
@@ -173,28 +173,44 @@
 
 
          /*START OF SW LOGOCONT*/
-         .header_logoCont_SW {
+         .header_topHalfCont {
             border: 2px dashed transparent;
            
              /* border-bottom: 1px solid grey; */
              overflow: hidden;
-
+            display: flex;
+            flex-direction: row;
              /*flex-grow: 1;*/
          }
     
-         .header_logoCont_SW svg {
-          
+         .header_topHalfCont svg {
+            border: 2px dotted transparent;
              width: 50%;
              height: 100%;
              display: block;
     
          }
+
+         .header_topHalfCont_areasOfServiceCont{
+            border: 2px solid transparent;
+            
+         }
+
+         .header_topHalfCont_areasOfServiceCont h2{
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 5%;
+        }
     
     
     
          /*END OF SW LOGOCONT*/
 
-    .header_profilePicCont{
+    .header_bottomHalfCont{
         border: 2px dashed transparent;
         width: 100%;
         height: 55%;
@@ -206,7 +222,7 @@
         
     }
 
-         .header_profilePicCont img{
+         .header_bottomHalfCont img{
            
              width: 25%;
              height: 90%;
@@ -216,7 +232,7 @@
             bottom: 0;
             }
 
-    .header_logoCont{
+    .header_quoteCont{
 
         border: 2px dashed transparent;
        /* border-bottom: 1px solid grey; */
@@ -232,9 +248,20 @@
        
     }
 
-    .header_logoCont svg{
+    .header_quoteCont h2{
+        color: whitesmoke;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-style: italic;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .header_quoteCont svg{
        
-        width: 40%;
+        border: 2px dashed transparent;
+        width: 80%;
         height: 100%;
         display: block;
         margin-left: 9%;
@@ -247,7 +274,7 @@
 
     .header_navbar{
        
-        background: linear-gradient(93deg, rgb(44, 128, 213) 0%, rgb(73, 138, 204) 100%);
+        background: linear-gradient(93deg, #ffffff 0%, rgb(222, 222, 222) 100%);
        
        
        
@@ -266,13 +293,16 @@
         padding-left: 0.8vw;
         padding-right: 0.8vw;
         font-size: 1em;
-        color: bisque;
+        /*color: rgb(255, 0, 0); */
+        color: #8a3000;
+       
        background: linear-gradient(40deg, rgb(5, 0, 78) 3%, rgba(0, 18, 88, 0.998) 52%, rgb(41, 0, 95) 88%); 
        
        background: transparent;
         border: 1px solid transparent;
 
         font-family:sans-serif;
+       
 
         
     }
@@ -293,7 +323,8 @@
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 2vw;
-        color: rgb(21, 39, 63);
+       /* color: rgb(21, 39, 63); */
+       color: #702200;
     }
 
     
@@ -327,6 +358,7 @@
     .PATA_TextCont h2{
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #702200;
         
     }
 
@@ -334,18 +366,72 @@
        
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin-left: 2vw;
+        color: #702200;
     }
 
     .PATA_TextCont p{
         margin-left: 2vw;
         margin-right: 2vw;
-        color: rgb(21, 39, 63);
+       /* color: rgb(21, 39, 63); */
+       color: #702200;
         
       
     }
 
 
+    .availabilityStatusCont{
+        border: 1px solid transparent;
+        width: 20%;
+        margin-left: 0%;
+        margin-top: 0%;
+       height: 10vw;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       gap: 0px;
+       border-radius: 10% 10% 10% 10%;
+       
+     
+    }
+
+    .availabilityStatusCont button{
+        border-radius: 50%;
+        width: 32%;
+        border: 1px solid rgba(0, 70, 131, 0.827);
+      
+        margin: auto;
+background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 44%, rgb(234, 234, 234) 100%);
+color: white;
+
+
+
+    }
+.availabilityStatusCont button h3{
+    color: rgb(23, 23, 23);
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1vw;
+}
+        .availabilityStatusCont button div {
+      
+            width: 50%;
+            
+            margin: auto;
+         
+           }
+
+           
+
+
+                   .availabilityStatusCont button div svg{
+                    
+                   }
+
     /*END OF MAIN CONTENT STYLES*/
+
+
+ 
 
 }   
 
