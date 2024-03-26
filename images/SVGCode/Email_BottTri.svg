@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="26.6667in" height="15in"
+     viewBox="0 0 1920 1080">
+  <path id="FormalEmail_BottTri"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 879.90,580.98
+           C 879.90,580.98 941.62,505.61 944.36,506.40
+             947.10,507.19 965.00,522.82 965.00,522.82
+             965.00,522.82 988.96,508.16 988.96,508.16
+             988.96,508.16 1000.96,525.96 1051.32,579.57
+             1064.61,585.38 976.29,580.86 964.31,579.57
+             916.48,575.63 879.90,580.98 879.90,580.98 Z" />
+</svg>

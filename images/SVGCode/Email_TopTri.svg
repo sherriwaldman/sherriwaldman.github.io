@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="26.6667in" height="15in"
+     viewBox="0 0 1920 1080">
+  <path id="FormalEmail_TopTri"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 881.78,465.96
+           C 881.78,465.96 919.59,463.66 964.57,465.68
+             1009.55,467.71 1044.44,466.33 1048.86,463.52
+             1052.61,463.70 989.54,511.30 965.12,522.70
+             936.47,498.78 881.78,465.96 881.78,465.96 Z" />
+</svg>
